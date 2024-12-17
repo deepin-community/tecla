@@ -1,5 +1,74 @@
-template-repository (1.0-1) unstable; urgency=medium
+tecla (47.0-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release
+  * debian/control: Add myself to Uploaders
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Amin Bandali <bandali@ubuntu.com>  Wed, 18 Sep 2024 20:59:25 -0400
+
+tecla (47~beta-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump Standards Version to 4.7.0
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 09 Aug 2024 14:28:00 -0400
+
+tecla (46.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+ -- Amin Bandali <bandali@ubuntu.com>  Mon, 18 Mar 2024 19:38:34 -0400
+
+tecla (46~rc-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+ -- Amin Bandali <bandali@ubuntu.com>  Mon, 11 Mar 2024 11:46:31 -0400
+
+tecla (46~beta-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 13 Feb 2024 08:13:10 -0500
+
+tecla (46~alpha-1) unstable; urgency=medium
+
+  * New upstream release
+  * Stop using debian/control.in and dh_gnome_clean
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 09 Jan 2024 14:30:33 -0500
+
+tecla (45.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Drop patch: no longer needed
+  * Bump minimum libadwaita to 1.4~beta
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Mon, 18 Sep 2023 09:31:26 -0400
+
+tecla (45~rc-1) unstable; urgency=medium
+
+  * New upstream release
+    - Fixes crash with some keyboard layouts (Closes: #1043456, LP: #2028081)
+    - Fixes mismatched LICENSE file (LP: #2026761)
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 06 Sep 2023 08:42:46 -0400
+
+tecla (45~beta-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 10 Aug 2023 20:40:36 -0400
+
+tecla (45~alpha-2) unstable; urgency=medium
+
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Sat, 15 Jul 2023 14:18:00 -0400
+
+tecla (45~alpha-1) experimental; urgency=medium
+
+  * Initial release (Closes: #1040590)
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 07 Jul 2023 14:22:27 -0400
